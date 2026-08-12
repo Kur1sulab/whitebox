@@ -12,10 +12,10 @@ description: >-
 
 Before going deep, consider loading:
 
-- [memory-forensics-volatility](../memory-forensics-volatility/SKILL.md) for correlating memory artifacts with network traffic
-- [steganography-techniques](../steganography-techniques/SKILL.md) for analyzing files extracted from traffic captures
-- [network-protocol-attacks](../network-protocol-attacks/SKILL.md) for understanding attack patterns visible in captures
-- [reverse-shell-techniques](../reverse-shell-techniques/SKILL.md) for identifying shell traffic in captures
+- [memory-forensics-volatility](../hack-memory-forensics-volatility/SKILL.md) for correlating memory artifacts with network traffic
+- [steganography-techniques](../hack-steganography-techniques/SKILL.md) for analyzing files extracted from traffic captures
+- [network-protocol-attacks](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-network-protocol-attacks/SKILL.md) for understanding attack patterns visible in captures
+- reverse-shell-techniques for identifying shell traffic in captures
 
 ---
 

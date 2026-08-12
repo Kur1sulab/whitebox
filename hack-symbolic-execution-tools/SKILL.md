@@ -12,9 +12,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [anti-debugging-techniques](../anti-debugging-techniques/SKILL.md) when anti-debug checks need to be symbolically bypassed
-- [code-obfuscation-deobfuscation](../code-obfuscation-deobfuscation/SKILL.md) when using symbolic execution for deobfuscation
-- [vm-and-bytecode-reverse](../vm-and-bytecode-reverse/SKILL.md) when applying angr to custom VM challenges
+- [anti-debugging-techniques](../hack-anti-debugging-techniques/SKILL.md) when anti-debug checks need to be symbolically bypassed
+- [code-obfuscation-deobfuscation](../hack-code-obfuscation-deobfuscation/SKILL.md) when using symbolic execution for deobfuscation
+- [vm-and-bytecode-reverse](../hack-vm-and-bytecode-reverse/SKILL.md) when applying angr to custom VM challenges
 
 ### Advanced Reference
 

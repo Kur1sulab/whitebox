@@ -12,9 +12,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [code-obfuscation-deobfuscation](../code-obfuscation-deobfuscation/SKILL.md) when the binary also uses control flow flattening, VM protection, or string encryption
-- [vm-and-bytecode-reverse](../vm-and-bytecode-reverse/SKILL.md) when the anti-debug sits inside a custom VM dispatcher
-- [symbolic-execution-tools](../symbolic-execution-tools/SKILL.md) when you want to symbolically skip anti-debug checks entirely
+- [code-obfuscation-deobfuscation](../hack-code-obfuscation-deobfuscation/SKILL.md) when the binary also uses control flow flattening, VM protection, or string encryption
+- [vm-and-bytecode-reverse](../hack-vm-and-bytecode-reverse/SKILL.md) when the anti-debug sits inside a custom VM dispatcher
+- [symbolic-execution-tools](../hack-symbolic-execution-tools/SKILL.md) when you want to symbolically skip anti-debug checks entirely
 
 ### Advanced Reference
 

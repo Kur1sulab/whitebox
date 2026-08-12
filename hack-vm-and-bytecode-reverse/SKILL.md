@@ -12,9 +12,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [code-obfuscation-deobfuscation](../code-obfuscation-deobfuscation/SKILL.md) when the VM is a commercial protector (VMProtect/Themida)
-- [symbolic-execution-tools](../symbolic-execution-tools/SKILL.md) when using angr to solve VM-based challenges
-- [anti-debugging-techniques](../anti-debugging-techniques/SKILL.md) when the VM includes anti-debug checks
+- [code-obfuscation-deobfuscation](../hack-code-obfuscation-deobfuscation/SKILL.md) when the VM is a commercial protector (VMProtect/Themida)
+- [symbolic-execution-tools](../hack-symbolic-execution-tools/SKILL.md) when using angr to solve VM-based challenges
+- [anti-debugging-techniques](../hack-anti-debugging-techniques/SKILL.md) when the VM includes anti-debug checks
 
 ### Quick identification
 

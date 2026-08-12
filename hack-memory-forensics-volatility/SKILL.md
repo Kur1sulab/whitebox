@@ -12,9 +12,9 @@ description: >-
 
 Before going deep, consider loading:
 
-- [traffic-analysis-pcap](../traffic-analysis-pcap/SKILL.md) for correlating network artifacts with memory findings
-- [steganography-techniques](../steganography-techniques/SKILL.md) if hidden data suspected in extracted files
-- [windows-privilege-escalation](../windows-privilege-escalation/SKILL.md) for understanding post-exploitation artifacts in memory
+- [traffic-analysis-pcap](../hack-traffic-analysis-pcap/SKILL.md) for correlating network artifacts with memory findings
+- [steganography-techniques](../hack-steganography-techniques/SKILL.md) if hidden data suspected in extracted files
+- [windows-privilege-escalation](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-windows-privilege-escalation/SKILL.md) for understanding post-exploitation artifacts in memory
 
 ### Quick Reference
 

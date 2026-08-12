@@ -74,7 +74,7 @@ reference/
 
 ## Active counterpart
 
-This skill audits a firewall/appliance **config statically**. To actively TEST a live perimeter appliance or its VPN crypto (IKE aggressive-mode/transform enum, Check Point SIC/OPSEC, firmware→CVE-applicability, handshake TLS-version probe, RST-TTL forgery discriminator), use [`network-appliance-offensive`](../network-appliance-offensive/SKILL.md).
+This skill audits a firewall/appliance **config statically**. To actively TEST a live perimeter appliance or its VPN crypto (IKE aggressive-mode/transform enum, Check Point SIC/OPSEC, firmware→CVE-applicability, handshake TLS-version probe, RST-TTL forgery discriminator), use [`network-appliance-offensive`](https://github.com/xiaoyang-xyc/blackbox/blob/main/pt-network-appliance-offensive/SKILL.md).
 
 ## Reference implementation
 

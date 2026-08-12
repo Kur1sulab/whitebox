@@ -12,9 +12,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [anti-debugging-techniques](../anti-debugging-techniques/SKILL.md) when the obfuscated binary also has anti-debug layers
-- [symbolic-execution-tools](../symbolic-execution-tools/SKILL.md) when using angr/Z3 for automated deobfuscation
-- [vm-and-bytecode-reverse](../vm-and-bytecode-reverse/SKILL.md) for deep VM protector bytecode analysis
+- [anti-debugging-techniques](../hack-anti-debugging-techniques/SKILL.md) when the obfuscated binary also has anti-debug layers
+- [symbolic-execution-tools](../hack-symbolic-execution-tools/SKILL.md) when using angr/Z3 for automated deobfuscation
+- [vm-and-bytecode-reverse](../hack-vm-and-bytecode-reverse/SKILL.md) for deep VM protector bytecode analysis
 
 ### Quick identification picks
 

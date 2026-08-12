@@ -10,10 +10,10 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [stack-overflow-and-rop](../stack-overflow-and-rop/SKILL.md) — ROP chains to bypass NX, ret2libc for ASLR bypass
-- [format-string-exploitation](../format-string-exploitation/SKILL.md) — primary method for leaking canary, PIE, libc addresses
-- [heap-exploitation](../heap-exploitation/SKILL.md) — heap attacks for RELRO bypass (when GOT is read-only)
-- [arbitrary-write-to-rce](../arbitrary-write-to-rce/SKILL.md) — what to overwrite when GOT is protected by RELRO
+- [stack-overflow-and-rop](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-stack-overflow-and-rop/SKILL.md) — ROP chains to bypass NX, ret2libc for ASLR bypass
+- [format-string-exploitation](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-format-string-exploitation/SKILL.md) — primary method for leaking canary, PIE, libc addresses
+- [heap-exploitation](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-heap-exploitation/SKILL.md) — heap attacks for RELRO bypass (when GOT is read-only)
+- [arbitrary-write-to-rce](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-arbitrary-write-to-rce/SKILL.md) — what to overwrite when GOT is protected by RELRO
 
 ### Advanced Reference
 
@@ -145,7 +145,7 @@ rop += p64(shellcode_addr)                 # jump to shellcode on now-executable
 | `.fini_array` | If writable | Overwrite destructor function pointers |
 | Stack return address | Direct stack write | Overwrite return address for ROP |
 
-See [arbitrary-write-to-rce](../arbitrary-write-to-rce/SKILL.md) for comprehensive target list.
+See [arbitrary-write-to-rce](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-arbitrary-write-to-rce/SKILL.md) for comprehensive target list.
 
 ---
 

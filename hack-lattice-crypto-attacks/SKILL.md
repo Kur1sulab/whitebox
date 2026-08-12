@@ -12,9 +12,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [rsa-attack-techniques](../rsa-attack-techniques/SKILL.md) for RSA-specific attacks that use lattice methods (Coppersmith, Boneh-Durfee)
-- [symmetric-cipher-attacks](../symmetric-cipher-attacks/SKILL.md) for LCG state recovery via lattice
-- [classical-cipher-analysis](../classical-cipher-analysis/SKILL.md) when lattice methods apply to classical cipher analysis
+- [rsa-attack-techniques](../hack-rsa-attack-techniques/SKILL.md) for RSA-specific attacks that use lattice methods (Coppersmith, Boneh-Durfee)
+- [symmetric-cipher-attacks](../hack-symmetric-cipher-attacks/SKILL.md) for LCG state recovery via lattice
+- [classical-cipher-analysis](../hack-classical-cipher-analysis/SKILL.md) when lattice methods apply to classical cipher analysis
 
 ### Quick application guide
 

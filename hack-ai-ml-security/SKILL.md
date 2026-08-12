@@ -10,9 +10,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [llm-prompt-injection](../llm-prompt-injection/SKILL.md) for LLM-specific prompt injection, jailbreaking, and tool abuse techniques
-- [deserialization-insecure](../deserialization-insecure/SKILL.md) for deeper coverage of Python pickle and general deserialization attack patterns
-- [dependency-confusion](../dependency-confusion/SKILL.md) when the ML pipeline has supply chain risks via pip/npm package confusion
+- [llm-prompt-injection](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-llm-prompt-injection/SKILL.md) for LLM-specific prompt injection, jailbreaking, and tool abuse techniques
+- [deserialization-insecure](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-deserialization-insecure/SKILL.md) for deeper coverage of Python pickle and general deserialization attack patterns
+- [dependency-confusion](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-dependency-confusion/SKILL.md) when the ML pipeline has supply chain risks via pip/npm package confusion
 
 ---
 
@@ -281,7 +281,7 @@ from shared gradients with high fidelity.
 
 ## 6. LLM-SPECIFIC SECURITY (Cross-ref)
 
-For detailed prompt injection techniques, see [llm-prompt-injection](../llm-prompt-injection/SKILL.md).
+For detailed prompt injection techniques, see [llm-prompt-injection](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-llm-prompt-injection/SKILL.md).
 
 ### 6.1 Training Data Extraction
 
@@ -300,7 +300,7 @@ Extraction strategies:
 
 ### 6.2 System Prompt Extraction
 
-Covered in [llm-prompt-injection JAILBREAK_PATTERNS.md](../llm-prompt-injection/JAILBREAK_PATTERNS.md) Section 5.
+Covered in [llm-prompt-injection JAILBREAK_PATTERNS.md](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-llm-prompt-injection/JAILBREAK_PATTERNS.md) Section 5.
 
 ### 6.3 Alignment Bypass
 
@@ -409,7 +409,7 @@ Assessing an AI/ML system?
 │   │   └── Federated? → Gradient leakage (Section 5.3)
 │   └── No → Continue
 ├── Is it an LLM / chatbot?
-│   ├── Yes → Load [llm-prompt-injection](../llm-prompt-injection/SKILL.md)
+│   ├── Yes → Load [llm-prompt-injection](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-llm-prompt-injection/SKILL.md)
 │   │   └── Also check training data extraction (Section 6.1)
 │   └── No → Continue
 ├── Is it an autonomous agent?

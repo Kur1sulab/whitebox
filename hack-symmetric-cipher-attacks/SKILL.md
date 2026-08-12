@@ -12,9 +12,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [rsa-attack-techniques](../rsa-attack-techniques/SKILL.md) when symmetric key is protected by RSA
-- [hash-attack-techniques](../hash-attack-techniques/SKILL.md) when HMAC or hash-based authentication is involved
-- [lattice-crypto-attacks](../lattice-crypto-attacks/SKILL.md) for LCG/LFSR state recovery via lattice methods
+- [rsa-attack-techniques](../hack-rsa-attack-techniques/SKILL.md) when symmetric key is protected by RSA
+- [hash-attack-techniques](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-hash-attack-techniques/SKILL.md) when HMAC or hash-based authentication is involved
+- [lattice-crypto-attacks](../hack-lattice-crypto-attacks/SKILL.md) for LCG/LFSR state recovery via lattice methods
 
 ### Advanced Reference
 

@@ -10,8 +10,8 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [defi-attack-patterns](../defi-attack-patterns/SKILL.md) when the vulnerability is part of a DeFi protocol exploit (flash loans, oracle manipulation, governance attacks)
-- [deserialization-insecure](../deserialization-insecure/SKILL.md) when the target is off-chain infrastructure deserializing blockchain data
+- [defi-attack-patterns](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-defi-attack-patterns/SKILL.md) when the vulnerability is part of a DeFi protocol exploit (flash loans, oracle manipulation, governance attacks)
+- [deserialization-insecure](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-deserialization-insecure/SKILL.md) when the target is off-chain infrastructure deserializing blockchain data
 
 ### Advanced Reference
 
@@ -299,7 +299,7 @@ Auditing a smart contract?
 │   │   └── Recommend Chainlink VRF or commit-reveal with bond
 │   └── No → Continue
 ├── Does it interact with DeFi protocols?
-│   ├── Yes → Load [defi-attack-patterns](../defi-attack-patterns/SKILL.md)
+│   ├── Yes → Load [defi-attack-patterns](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-defi-attack-patterns/SKILL.md)
 │   │   ├── Flash loan vectors
 │   │   ├── Oracle manipulation
 │   │   └── MEV exposure

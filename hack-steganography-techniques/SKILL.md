@@ -12,9 +12,9 @@ description: >-
 
 Before going deep, consider loading:
 
-- [traffic-analysis-pcap](../traffic-analysis-pcap/SKILL.md) for extracting files from network captures before stego analysis
-- [memory-forensics-volatility](../memory-forensics-volatility/SKILL.md) for extracting files from memory dumps
-- [classical-cipher-analysis](../classical-cipher-analysis/SKILL.md) if extracted hidden data is further encrypted/encoded
+- [traffic-analysis-pcap](../hack-traffic-analysis-pcap/SKILL.md) for extracting files from network captures before stego analysis
+- [memory-forensics-volatility](../hack-memory-forensics-volatility/SKILL.md) for extracting files from memory dumps
+- [classical-cipher-analysis](../hack-classical-cipher-analysis/SKILL.md) if extracted hidden data is further encrypted/encoded
 
 ### Tool Reference
 

@@ -12,9 +12,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [lattice-crypto-attacks](../lattice-crypto-attacks/SKILL.md) for deep lattice theory behind Coppersmith/Boneh-Durfee
-- [hash-attack-techniques](../hash-attack-techniques/SKILL.md) when RSA signature forgery involves hash weaknesses
-- [symmetric-cipher-attacks](../symmetric-cipher-attacks/SKILL.md) when RSA protects a symmetric key (hybrid encryption)
+- [lattice-crypto-attacks](../hack-lattice-crypto-attacks/SKILL.md) for deep lattice theory behind Coppersmith/Boneh-Durfee
+- [hash-attack-techniques](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-hash-attack-techniques/SKILL.md) when RSA signature forgery involves hash weaknesses
+- [symmetric-cipher-attacks](../hack-symmetric-cipher-attacks/SKILL.md) when RSA protects a symmetric key (hybrid encryption)
 
 ### Advanced Reference
 
@@ -205,7 +205,7 @@ def get_convergents(cf):
 
 Extends Wiener: works when d < n^0.292. Uses lattice reduction (LLL/BKZ).
 
-**Use SageMath implementation** — see [lattice-crypto-attacks](../lattice-crypto-attacks/SKILL.md) for theory.
+**Use SageMath implementation** — see [lattice-crypto-attacks](../hack-lattice-crypto-attacks/SKILL.md) for theory.
 
 ---
 

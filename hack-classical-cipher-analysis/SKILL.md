@@ -13,9 +13,9 @@ description: >-
 
 ## 0. RELATED ROUTING
 
-- [symmetric-cipher-attacks](../symmetric-cipher-attacks/SKILL.md) when dealing with modern symmetric ciphers (AES/DES) rather than classical
-- [hash-attack-techniques](../hash-attack-techniques/SKILL.md) when the challenge involves hash-based constructions
-- [lattice-crypto-attacks](../lattice-crypto-attacks/SKILL.md) when knapsack-based ciphers are encountered
+- [symmetric-cipher-attacks](../hack-symmetric-cipher-attacks/SKILL.md) when dealing with modern symmetric ciphers (AES/DES) rather than classical
+- [hash-attack-techniques](https://github.com/xiaoyang-xyc/blackbox/blob/main/hack-hash-attack-techniques/SKILL.md) when the challenge involves hash-based constructions
+- [lattice-crypto-attacks](../hack-lattice-crypto-attacks/SKILL.md) when knapsack-based ciphers are encountered
 
 ### Quick identification guide
 
@@ -492,7 +492,7 @@ def columnar_decrypt(ciphertext, key):
 
 ### 8.1 Single-Byte XOR
 
-See [symmetric-cipher-attacks](../symmetric-cipher-attacks/SKILL.md) Section 4.2 for full implementation.
+See [symmetric-cipher-attacks](../hack-symmetric-cipher-attacks/SKILL.md) Section 4.2 for full implementation.
 
 ### 8.2 Multi-Byte XOR (xortool)
 
