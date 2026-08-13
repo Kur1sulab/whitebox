@@ -1,14 +1,13 @@
 # whitebox
 
-白盒代码审计技能集（White-box Code Audit Skills）—— 给 AI Agent 用的源码审计 / 逆向分析 / 密码学研究 playbook 合集，共 **35** 个技能。
+白盒代码审计技能集，给 AI Agent 用的源码审计/逆向分析/密码学研究 playbook 合集，共 35 个技能。
 
-> 白盒视角：从源码、二进制、配置出发 —— 污点追踪、鉴权矩阵、文件操作链、依赖与密钥扫描、逆向工程、密码分析、取证分析。
-> 每个技能 = 一份独立 playbook（触发条件 / 审计步骤 / 工具命令 / 坑位备忘），可被 Claude Code、Hermes 等支持 Skills 的 Agent 直接加载。
+从源码、二进制、配置出发：污点追踪、鉴权矩阵、文件操作链、依赖与密钥扫描、逆向工程、密码分析、取证分析。每个技能是一份独立 playbook（触发条件/审计步骤/工具命令/坑位备忘），Claude Code、Hermes 等支持 Skills 的 Agent 可以直接加载。
 
 
 ## 技能索引
 
-### 📐 审计方法论（4）
+### 审计方法论（4）
 
 | 技能 | 说明 |
 |------|------|
@@ -17,7 +16,7 @@
 | [pt-source-code-scanning](./pt-source-code-scanning/) | Security-focused source code review and SAST. Scans for vulnerabilities… |
 | [whitebox-authz-matrix-audit](./whitebox-authz-matrix-audit/) | 白盒鉴权矩阵审计：枚举 Controller 端点对照 anon 白名单，产出来授权攻击面全图 |
 
-### ☕ Java 与国产框架专项（4）
+### Java 与国产框架专项（4）
 
 | 技能 | 说明 |
 |------|------|
@@ -26,7 +25,7 @@
 | [lowcode-framework-authz-audit](./lowcode-framework-authz-audit/) | 审计JeecgBoot/若依类二开源码自定义模块越权/状态机/IDOR时用。含零注解根因定位、状态机三维、配置控制面 |
 | [mybatis-xml-sqli-audit](./mybatis-xml-sqli-audit/) | 源码审计 SQL 注入时用：枚举 MyBatis Mapper XML ${} 拼接并做污点追踪 |
 
-### 🔐 依赖、密钥与配置审计（4）
+### 依赖、密钥与配置审计（4）
 
 | 技能 | 说明 |
 |------|------|
@@ -35,7 +34,7 @@
 | [dependency-auditor](./dependency-auditor/) | Audit npm, pip, and Go dependencies that OpenClaw skills try to install.… |
 | [deployment-config-audit](./deployment-config-audit/) | 部署配置/凭据审计：deploy/、yml、docker-compose 暴露面与环境差异 |
 
-### 🔧 逆向工程与二进制（6）
+### 逆向工程与二进制（6）
 
 | 技能 | 说明 |
 |------|------|
@@ -46,7 +45,7 @@
 | [hack-vm-and-bytecode-reverse](./hack-vm-and-bytecode-reverse/) | Custom VM and bytecode reverse engineering playbook |
 | [pt-reverse-engineering](./pt-reverse-engineering/) | Static and dynamic reverse engineering — ELF/PE analysis, custom-VM byte… |
 
-### 🔢 密码分析（5）
+### 密码分析（5）
 
 | 技能 | 说明 |
 |------|------|
@@ -56,7 +55,7 @@
 | [hack-symmetric-cipher-attacks](./hack-symmetric-cipher-attacks/) | Symmetric cipher attack playbook |
 | [pt-cryptography](./pt-cryptography/) | Cryptanalysis techniques — lattice attacks, padding oracles, weak-RNG ex… |
 
-### 🧬 取证与流量分析（4）
+### 取证与流量分析（4）
 
 | 技能 | 说明 |
 |------|------|
@@ -65,7 +64,7 @@
 | [hack-traffic-analysis-pcap](./hack-traffic-analysis-pcap/) | Traffic analysis and PCAP forensics playbook |
 | [pt-dfir](./pt-dfir/) | Digital forensics and incident response - Windows event log analysis, PC… |
 
-### 🛡️ 云防御与合规基线（3）
+### 云防御与合规基线（3）
 
 | 技能 | 说明 |
 |------|------|
@@ -73,7 +72,7 @@
 | [pt-firewall-review](./pt-firewall-review/) | Evidence-safe firewall ruleset audit reference specification — 22 docume… |
 | [pt-pci-secure-software](./pt-pci-secure-software/) | Automated PCI Secure Software Standard (SSS) v2.0 readiness gap-assessme… |
 
-### 📡 CVE 研究与威胁情报（3）
+### CVE 研究与威胁情报（3）
 
 | 技能 | 说明 |
 |------|------|
@@ -81,7 +80,7 @@
 | [pt-cve-risk-score](./pt-cve-risk-score/) | Retrieve CVE risk scores from NVD. Auto-invoked whenever a CVE ID is men… |
 | [pt-ti-ingest](./pt-ti-ingest/) | Threat-intel signal ingest — converts a CVE + affected-asset + claim pay… |
 
-### ⛓️ 智能合约与 AI 模型安全（2）
+### 智能合约与 AI 模型安全（2）
 
 | 技能 | 说明 |
 |------|------|
