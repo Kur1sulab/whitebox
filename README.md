@@ -1,13 +1,13 @@
 # whitebox
 
-白盒代码审计技能集，给 AI Agent 用的源码审计/逆向分析/密码学研究 playbook 合集，共 35 个技能。
+白盒代码审计技能集，给 AI Agent 用的源码审计/逆向分析/密码学研究 playbook 合集，共 38 个技能。
 
 从源码、二进制、配置出发：污点追踪、鉴权矩阵、文件操作链、依赖与密钥扫描、逆向工程、密码分析、取证分析。每个技能是一份独立 playbook（触发条件/审计步骤/工具命令/坑位备忘），Claude Code、Hermes 等支持 Skills 的 Agent 可以直接加载。
 
 
 ## 技能索引
 
-### 审计方法论（4）
+### 审计方法论（6）
 
 | 技能 | 说明 |
 |------|------|
@@ -15,6 +15,8 @@
 | [hunt-sast-methodology](./hunt-sast-methodology/) | SAST / static analysis hunting methodology — finding vulns in source cod… |
 | [pt-source-code-scanning](./pt-source-code-scanning/) | Security-focused source code review and SAST. Scans for vulnerabilities… |
 | [whitebox-authz-matrix-audit](./whitebox-authz-matrix-audit/) | 白盒鉴权矩阵审计：枚举 Controller 端点对照 anon 白名单，产出来授权攻击面全图 |
+| [patch-diff-variant-hunting](./patch-diff-variant-hunting/) | 从厂商安全补丁反推漏洞指纹，再横扫同类系统找变种（n-day → 0day） |
+| [silent-failure-detection](./silent-failure-detection/) | 检测「静默失效」——检索/校验/监控返回空结果但不报错，用真值对照证明它真的在工作 |
 
 ### Java 与国产框架专项（4）
 
@@ -34,7 +36,7 @@
 | [dependency-auditor](./dependency-auditor/) | Audit npm, pip, and Go dependencies that OpenClaw skills try to install.… |
 | [deployment-config-audit](./deployment-config-audit/) | 部署配置/凭据审计：deploy/、yml、docker-compose 暴露面与环境差异 |
 
-### 逆向工程与二进制（6）
+### 逆向工程与二进制（7）
 
 | 技能 | 说明 |
 |------|------|
@@ -44,6 +46,7 @@
 | [hack-symbolic-execution-tools](./hack-symbolic-execution-tools/) | Symbolic execution and constraint solving playbook |
 | [hack-vm-and-bytecode-reverse](./hack-vm-and-bytecode-reverse/) | Custom VM and bytecode reverse engineering playbook |
 | [pt-reverse-engineering](./pt-reverse-engineering/) | Static and dynamic reverse engineering — ELF/PE analysis, custom-VM byte… |
+| [mobile-static-analysis](./mobile-static-analysis/) | APK / 微信小程序静态审计：组件面测绘、硬编码密钥、接口提取，含「导出组件≠漏洞」判据 |
 
 ### 密码分析（5）
 

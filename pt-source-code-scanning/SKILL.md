@@ -1,6 +1,6 @@
 ---
-name: source-code-scanning
-description: Security-focused source code review and SAST. Scans for vulnerabilities (OWASP Top 10, CWE Top 25), CVEs in third-party dependencies/packages,
+name: pt-source-code-scanning
+description: "Security-focused source code review and SAST. Scans for vulnerabilities (OWASP Top 10, CWE Top 25), CVEs in third-party dependencies/packages,"
 ---
 
 # Source Code Security Review

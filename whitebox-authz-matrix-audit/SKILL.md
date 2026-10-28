@@ -1,6 +1,6 @@
 ---
 name: whitebox-authz-matrix-audit
-description: 白盒鉴权矩阵审计：枚举 Controller 端点对照 anon 白名单，产出来授权攻击面全图。触发：鉴权/未授权审计。
+description: "白盒鉴权矩阵审计：枚举 Controller 端点对照 anon 白名单，产出来授权攻击面全图。触发：鉴权/未授权审计。"
 ---
 
 # 白盒鉴权矩阵审计（未授权攻击面全图）

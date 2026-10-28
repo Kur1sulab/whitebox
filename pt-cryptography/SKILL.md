@@ -1,6 +1,6 @@
 ---
-name: cryptography
-description: Cryptanalysis techniques — lattice attacks, padding oracles, weak-RNG exploitation, signature forgery, secret-sharing recovery.
+name: pt-cryptography
+description: "Cryptanalysis techniques — lattice attacks, padding oracles, weak-RNG exploitation, signature forgery, secret-sharing recovery."
 ---
 
 # Cryptography

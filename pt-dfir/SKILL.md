@@ -1,6 +1,6 @@
 ---
-name: dfir
-description: Digital forensics and incident response - Windows event log analysis, PCAP forensics, filesystem artifact analysis, AD attack detection,
+name: pt-dfir
+description: "Digital forensics and incident response - Windows event log analysis, PCAP forensics, filesystem artifact analysis, AD attack detection,"
 ---
 
 # DFIR

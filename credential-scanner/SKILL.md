@@ -1,7 +1,6 @@
 ---
 name: credential-scanner
-description: Scan your project for exposed credentials, API keys, and secrets before running OpenClaw skills. Prevents accidental
-  exfiltration.
+description: "Scan your project for exposed credentials, API keys, and secrets before running OpenClaw skills. Prevents accidental exfiltration."
 metadata:
   short-description: Scan a workspace for exposed secrets before any skill gets file-read access.
   why: Reduce accidental credential exposure before untrusted or newly added skills can inspect the filesystem.

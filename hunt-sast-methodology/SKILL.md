@@ -1,6 +1,6 @@
 ---
 name: hunt-sast-methodology
-description: SAST / static analysis hunting methodology — finding vulns in source code with targeted scanning. Use when doing code-based vulnerability hunting.
+description: "SAST / static analysis hunting methodology — finding vulns in source code with targeted scanning. Use when doing code-based vulnerability hunting."
 ---
 
 # SAST Methodology

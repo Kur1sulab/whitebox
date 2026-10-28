@@ -1,9 +1,6 @@
 ---
-name: symbolic-execution-tools
-description: >-
-  Symbolic execution and constraint solving playbook. Use when solving CTF
-  reversing challenges, recovering keys, bypassing checks, or automating
-  binary analysis with angr, Z3, or Unicorn Engine.
+name: hack-symbolic-execution-tools
+description: "Symbolic execution and constraint solving playbook. Use when solving CTF reversing challenges, recovering keys, bypassing checks, or automating binary analysis with angr, Z3, or Unicorn Engine."
 ---
 
 # SKILL: Symbolic Execution Tools — Expert Analysis Playbook

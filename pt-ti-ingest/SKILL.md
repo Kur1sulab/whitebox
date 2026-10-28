@@ -1,6 +1,6 @@
 ---
-name: ti-ingest
-description: Threat-intel signal ingest — converts a CVE + affected-asset + claim payload into a queued engagement-scope row for the validation pipeline.
+name: pt-ti-ingest
+description: "Threat-intel signal ingest — converts a CVE + affected-asset + claim payload into a queued engagement-scope row for the validation pipeline."
 ---
 
 # Threat-Intel Signal Ingest

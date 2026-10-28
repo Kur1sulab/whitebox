@@ -1,6 +1,6 @@
 ---
-name: reverse-engineering
-description: Static and dynamic reverse engineering — ELF/PE analysis, custom-VM bytecode, packed binaries, anti-debug bypass, Frida hooking.
+name: pt-reverse-engineering
+description: "Static and dynamic reverse engineering — ELF/PE analysis, custom-VM bytecode, packed binaries, anti-debug bypass, Frida hooking."
 ---
 
 # Reverse Engineering

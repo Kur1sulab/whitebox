@@ -1,6 +1,6 @@
 ---
-name: cloud-defense
-description: Detect and break the cloud post-compromise attack chain (AWS / Azure / GCP) —
+name: pt-cloud-defense
+description: "Detect and break the cloud post-compromise attack chain (AWS / Azure / GCP) —"
 ---
 
 # Cloud Defense

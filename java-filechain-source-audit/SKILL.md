@@ -1,6 +1,6 @@
 ---
 name: java-filechain-source-audit
-description: 审计 Java 源码文件操作链（上传/下载/转换/预览）时用：落盘还原、后缀绕过、路径穿越、.jsp RCE 判定。
+description: "审计 Java 源码文件操作链（上传/下载/转换/预览）时用：落盘还原、后缀绕过、路径穿越、.jsp RCE 判定。"
 version: 1.0.0
 author: hermes-curator
 license: MIT

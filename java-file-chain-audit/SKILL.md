@@ -1,6 +1,6 @@
 ---
 name: java-file-chain-audit
-description: 审计 Java 上传/下载/删除链（.jsp RCE 判定、physicalPath 穿越）。
+description: "审计 Java 上传/下载/删除链（.jsp RCE 判定、physicalPath 穿越）。"
 version: 1.0.0
 author: hermes-curator
 license: MIT

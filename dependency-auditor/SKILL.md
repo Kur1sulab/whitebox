@@ -1,7 +1,6 @@
 ---
 name: dependency-auditor
-description: Audit npm, pip, and Go dependencies that OpenClaw skills try to install. Checks for known vulnerabilities, typosquatting,
-  and malicious packages.
+description: "Audit npm, pip, and Go dependencies that OpenClaw skills try to install. Checks for known vulnerabilities, typosquatting, and malicious packages."
 metadata:
   short-description: Audit skill-installed dependencies for typosquatting, hooks, and known package risk.
   why: Catch supply-chain abuse before a skill pulls malicious packages into the environment.

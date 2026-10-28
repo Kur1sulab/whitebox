@@ -1,10 +1,6 @@
 ---
-name: classical-cipher-analysis
-description: >-
-  Classical cipher analysis playbook. Use when encountering substitution
-  ciphers, Vigenere, transposition, XOR, or encoded text in CTF challenges
-  that requires frequency analysis, Kasiski examination, or known-plaintext
-  cryptanalysis.
+name: hack-classical-cipher-analysis
+description: "Classical cipher analysis playbook. Use when encountering substitution ciphers, Vigenere, transposition, XOR, or encoded text in CTF challenges that requires frequency analysis, Kasiski examination, or known-plaintext cryptanalysis."
 ---
 
 # SKILL: Classical Cipher Analysis — Expert Cryptanalysis Playbook

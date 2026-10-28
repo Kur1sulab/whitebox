@@ -1,6 +1,6 @@
 ---
 name: deployment-config-audit
-description: 部署配置/凭据审计：deploy/、yml、docker-compose 暴露面与环境差异。
+description: "部署配置/凭据审计：deploy/、yml、docker-compose 暴露面与环境差异。"
 version: 1.0.0
 author: hermes-curator
 license: CC-BY-4.0

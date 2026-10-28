@@ -1,7 +1,6 @@
 ---
-name: memory-forensics-volatility
-description: >-
-  Memory forensics playbook using Volatility 2/3. Use when analyzing memory dumps for malware analysis, credential extraction, process investigation, code injection detection, and incident response timeline reconstruction.
+name: hack-memory-forensics-volatility
+description: "Memory forensics playbook using Volatility 2/3. Use when analyzing memory dumps for malware analysis, credential extraction, process investigation, code injection detection, and incident response timeline reconstruction."
 ---
 
 # SKILL: Memory Forensics — Expert Analysis Playbook

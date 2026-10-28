@@ -1,6 +1,6 @@
 ---
 name: lowcode-framework-authz-audit
-description: 审计JeecgBoot/若依类二开源码自定义模块越权/状态机/IDOR时用。含零注解根因定位、状态机三维、配置控制面。
+description: "审计JeecgBoot/若依类二开源码自定义模块越权/状态机/IDOR时用。含零注解根因定位、状态机三维、配置控制面。"
 version: 1.0.0
 author: hermes-curator
 license: CC-BY-4.0

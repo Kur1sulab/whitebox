@@ -1,6 +1,6 @@
 ---
-name: firewall-review
-description: Evidence-safe firewall ruleset audit reference specification — 22 documented detector patterns (17 vendor-agnostic plus 5 FortiGate-specific),
+name: pt-firewall-review
+description: "Evidence-safe firewall ruleset audit reference specification — 22 documented detector patterns (17 vendor-agnostic plus 5 FortiGate-specific),"
 ---
 
 # firewall-review

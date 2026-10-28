@@ -1,6 +1,6 @@
 ---
-name: pci-secure-software
-description: Automated PCI Secure Software Standard (SSS) v2.0 readiness gap-assessment of an application from its source code and documentation.
+name: pt-pci-secure-software
+description: "Automated PCI Secure Software Standard (SSS) v2.0 readiness gap-assessment of an application from its source code and documentation."
 model: opus
 context: fork
 ---

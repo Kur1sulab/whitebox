@@ -1,6 +1,6 @@
 ---
 name: mybatis-xml-sqli-audit
-description: 源码审计 SQL 注入时用：枚举 MyBatis Mapper XML ${} 拼接并做污点追踪。
+description: "源码审计 SQL 注入时用：枚举 MyBatis Mapper XML ${} 拼接并做污点追踪。"
 version: 1.0.0
 author: hermes-curator
 license: MIT
